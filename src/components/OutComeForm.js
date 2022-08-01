@@ -21,6 +21,10 @@ const OutComeForm = ({outComes,setOutComes}) => {
             setOutComes([...outComes,outCome]);
             setIsMarket(false);
             setVisible(true);
+            setTimeout(() =>
+            {
+                setVisible(false);
+            }, 2000);
             
         }}>Add</Button>
        
