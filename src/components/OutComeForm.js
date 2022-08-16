@@ -9,9 +9,6 @@ const OutComeForm = ({outComes,setOutComes}) => {
     const [isMarket, setIsMarket] = useState(false);
     const [visible, setVisible] = useState(false);
 
-    // useEffect(()=>{
-    //     console.log(outCome)
-    // },[outCome])
     return <div>
          <AlertModal visible={visible} setVisible={setVisible} message="Successfully Added"></AlertModal>
         <InputNumber addonAfter="€" defaultValue={0} onChange={(e) => setOutCome({ ...outCome, amount: (e) })} />

@@ -1,5 +1,5 @@
 .App {
- width: 50%;
+ width: 70%;
  height: 100vh;
  text-align: center;
  margin:auto;
@@ -8,4 +8,13 @@
  justify-content: center;
  align-items: center;
 }
-
+.analysisContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.chart{
+    width: 80%;
+}
+.monthlyResults{
+    width: 20%;
+}
